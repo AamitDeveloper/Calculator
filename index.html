@@ -10,6 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="./calci.js" type="text/javascript"></script>
     <link rel="stylesheet" href="calci.css">
+    
     <title>Calculator</title>
     <meta charset="UTF-8">
     <meta name="viewport" content=
@@ -101,17 +102,17 @@
             <input type="button" value="ln" class="operator" onClick="display('/')"></input>
             <input type="button" value="log" class="operator" onClick="display('/')"></input>
             <input type="button" value="n!" class="operator" onClick="display('/')"></input>
-            <input type="button" value="Back" class="operator" onClick="display('/')"></input>
+            <input type="button" value="Back" class="operator" onClick="display('Back')"></input>
             <input type="button" value="RND" class="operator" onClick="display('/')"></input>
             <input type="button" value="0" class="button" onClick="display('0')"></input>
             <input type="button" value="." class="button" onClick="display('.')"></input>
             <input type='button' value='AC' onclick="clearScreen()" class="clear" />
-            <input type="button" value="÷" class="operator" onClick="display('/')"></input>
+            <input type="button" value="/" class="operator" onClick="display('/')"></input>
             <input type="button" value="EXP" class="operator" onClick="display('/')"></input>
             <input type="button" value="M+" class="operator" onClick="display('/')"></input>
             <input type="button" value="M-" class="operator" onClick="display('/')"></input>
             <input type="button" value="MR" class="operator" onClick="display('/')"></input>
-            <input type="button" value="Ans" class="operator" onClick="display('/')"></input>
+            <input type="button" value="Ans" class="operator" onClick="display('Ans')"></input>
             <input type="button" value="=" class="button equal-sign" onClick="solve()"></input>
         </div>
     </div>
