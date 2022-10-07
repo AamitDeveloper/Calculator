@@ -173,3 +173,16 @@
 .icon-bar{
   background-color: rgb(4, 6, 4)
 }
+
+@media screen and (max-width:700px){
+.keys{
+    grid-gap: 5px;
+}
+.operator{
+  font-size: 1.2rem
+}
+.clear{
+  font-size: 1.5rem;
+}
+
+}
