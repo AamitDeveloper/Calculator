@@ -72,25 +72,25 @@
             <input type="button" value="tan-1" class="operator" onClick="display('arctan(')"></input>
             <input type="button" value="π" class="operator" onClick="display(' 3.1415926536')"></input>
             <input type="button" value="e" class="operator" onClick="display('2.7182818285')"></input>
-            <input type="button" value="Deg" class="operator" onClick="display('/')"></input>
-            <input type="button" value="Rad" class="operator" onClick="display('/')"></input>
+            <label for="scirdsettingd"><input id="scirdsettingd" type="radio" class="scird" name="scirdsetting" value="deg" onclick="cnDegreeRadians='degree';" checked="">Deg</label>
+            <label for="scirdsettingr"><input id="scirdsettingr" type="radio" class="scird" name="scirdsetting" value="rad" onclick="cnDegreeRadians='radians';">Rad</label>
             <input type="button" value="7" class="button" onClick="display('7')"></input>
             <input type="button" value="8" class="button" onClick="display('8')"></input>
             <input type="button" value="9" class="button" onClick="display('9')"></input>
             <input type="button" value="+" class="operator" onClick="display('+')"></input>
-            <input type="button" value="xy" class="operator" onClick="display('0▢')"></input>
-            <input type="button" value="x3" class="operator" onClick="display('/')"></input>
-            <input type="button" value="x2" class="operator" onClick="display('7')"></input>
-            <input type="button" value="ex" class="operator" onClick="display('8')"></input>
-            <input type="button" value="10x" class="operator" onClick="display('9')"></input>
-            <input type="button" value="1/x" class="operator" onClick="display('/')"></input>
+            <input type="button" value="xy" class="operator" onClick="display('▢▢')"></input>
+            <input type="button" value="x3" class="operator" onClick="display('▢3')"></input>
+            <input type="button" value="x2" class="operator" onClick="display('▢2')"></input>
+            <input type="button" value="ex" class="operator" onClick="display('e▢')"></input>
+            <input type="button" value="10x" class="operator" onClick="display('10▢')"></input>
+            <input type="button" value="1/x" class="operator" onClick="display('1/▢')"></input>
             <input type="button" value="4" class="button" onClick="display('4')"></input>
             <input type="button" value="5" class="button" onClick="display('5')"></input>
             <input type="button" value="6" class="button" onClick="display('6')"></input>
             <input type="button" value="-" class="operator" onClick="display('-')"></input>
-            <input type="button" value="y√x" class="operator" onClick="display('1')"></input>
-            <input type="button" value="3√x" class="operator" onClick="display('2')"></input>
-            <input type="button" value="√x" class="operator" onClick="display('3')"></input>
+            <input type="button" value="y√x" class="operator" onClick="display('▢√▢')"></input>
+            <input type="button" value="3√x" class="operator" onClick="display('3√▢')"></input>
+            <input type="button" value="√x" class="operator" onClick="display('√▢')"></input>
             <input type="button" value="%" class="operator" onClick="display('-')"></input>
             <input type="button" value="(" class="operator" onClick="display('(')"></input>
             <input type="button" value=")" class="operator" onClick="display(')')"></input>
@@ -98,20 +98,20 @@
             <input type="button" value="2" class="button" onClick="display('2')"></input>
             <input type="button" value="3" class="button" onClick="display('3')"></input>
             <input type="button" value="x" class="operator" onClick="display('x')"></input>
-            <input type="button" value="±" class="operator" onClick="display('/')"></input>
-            <input type="button" value="ln" class="operator" onClick="display('/')"></input>
-            <input type="button" value="log" class="operator" onClick="display('/')"></input>
-            <input type="button" value="n!" class="operator" onClick="display('/')"></input>
+            <input type="button" value="±" class="operator" onClick="display('-')"></input>
+            <input type="button" value="ln" class="operator" onClick="display('x ln')"></input>
+            <input type="button" value="log" class="operator" onClick="display('x log(')"></input>
+            <input type="button" value="n!" class="operator" onClick="display('!')"></input>
             <input type="button" value="Back" class="operator" onClick="display('Back')"></input>
-            <input type="button" value="RND" class="operator" onClick="display('/')"></input>
+            <input type="button" value="RND" class="operator" onClick="display('RND')"></input>
             <input type="button" value="0" class="button" onClick="display('0')"></input>
             <input type="button" value="." class="button" onClick="display('.')"></input>
             <input type='button' value='AC' onclick="clearScreen()" class="clear" />
             <input type="button" value="/" class="operator" onClick="display('/')"></input>
-            <input type="button" value="EXP" class="operator" onClick="display('/')"></input>
-            <input type="button" value="M+" class="operator" onClick="display('/')"></input>
-            <input type="button" value="M-" class="operator" onClick="display('/')"></input>
-            <input type="button" value="MR" class="operator" onClick="display('/')"></input>
+            <input type="button" value="EXP" class="operator" onClick="display('EXP')"></input>
+            <input type="button" value="M+" class="operator" onClick="display('M+')"></input>
+            <input type="button" value="M-" class="operator" onClick="display('M-')"></input>
+            <input type="button" value="MR" class="operator" onClick="display('MR')"></input>
             <input type="button" value="Ans" class="operator" onClick="display('Ans')"></input>
             <input type="button" value="=" class="button equal-sign" onClick="solve()"></input>
         </div>

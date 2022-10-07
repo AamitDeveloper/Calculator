@@ -209,3 +209,44 @@
 }
 }
 
+@media screen and (max-width:350px){
+  .keys{
+      grid-gap: 1px; 
+      padding-top: 25px;  
+      padding-left: 1px;
+  }
+  .operator {
+    border: 1px solid #0f0a0a;
+  }
+  .clear{
+    border: 1px solid #0f0a0a;
+  }
+  .button{
+    border: 1px solid #0f0a0a;
+  }
+  .screen{
+    margin-top:8%;
+  }
+  .scird{
+    font-size: 5px;
+  }
+  }
+
+  .scird {
+    
+    display: table-cell;
+    text-align: center;
+    height: 18px;
+    margin: 1px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 13px;
+    color: #262626;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
